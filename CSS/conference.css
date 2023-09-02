@@ -3,7 +3,7 @@
 -----------------------------------------------------------------*/
 
 :root {
-	--cnvs-themecolor: #222222;
+	--cnvs-themecolor: #000;
 	--cnvs-themecolor-rgb: 34, 34, 34;
 	--cnvs-color1: #EC008B;
 	--cnvs-color2: #F3317A;
@@ -128,9 +128,9 @@ body,
 	bottom: 0;
 	width: 100%;
 	height: 100%;
-	background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
-	background: -o-linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
-	background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
+	background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0), #1c091a);
+	background: -o-linear-gradient(to bottom, rgba(0,0,0,0), #1c091a);
+	background: linear-gradient(to bottom, rgba(0,0,0,0), #1c091a);
 }
 
 .team-desc {
@@ -253,7 +253,7 @@ body,
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(0, 0, 0, 0.8);
+	background: #1c091a;
 	pointer-events: none;
 	cursor: default;
 	z-index: 1;
@@ -268,9 +268,9 @@ body,
 	height: 60px;
 	pointer-events: none;
 	z-index: 1;
-	background: -webkit-linear-gradient(to top, rgba(0,0,0,0) 0%, rgba(0,0,0,1)92%);
-	background: -o-linear-gradient(to top, rgba(0,0,0,0) 0%, rgba(0,0,0,1)92%);
-	background: linear-gradient(to top, rgba(0,0,0,0) 0%, rgba(0,0,0,1)92%);
+	background: -webkit-linear-gradient(to top, rgba(0,0,0,0) 0%, #1c091a 92%);
+	background: -o-linear-gradient(to top, rgba(0,0,0,0) 0%, #1c091a 92%);
+	background: linear-gradient(to top, rgba(0,0,0,0) 0%, #1c091a 92%);
 }
 
 .device-xs .display-2 { font-size: 48px; }
@@ -280,9 +280,9 @@ body,
 	bottom: -2px;
 	width: 100%;
 	height: 100%;
-	background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,.7) 50%, rgba(0,0,0,1) 100%);
-	background: -o-linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,.7) 50%, rgba(0,0,0,1) 100%);
-	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,.7) 50%, rgba(0,0,0,1) 100%);
+	background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0%, #1c091a 50%, #1c091a 100%);
+	background: -o-linear-gradient(to bottom, rgba(0,0,0,0) 0%, #1c091a 50%, #1c091a 100%);
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, #1c091a 50%, #1c091a 100%);
 }
 
 #section-location .container-bg .container { padding: 150px 0; }
@@ -345,7 +345,7 @@ body,
 @media (max-width: 991.98px) {
 
 	#header.transparent-header.responsive-sticky-header #header-wrap {
-		background-color: #000;
+		background-color: #1c091a;
 		border-bottom-color: rgba(255,255,255,0.2);
 	}
 
